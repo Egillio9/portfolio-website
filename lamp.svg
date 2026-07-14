@@ -1,0 +1,29 @@
+<svg width="120" height="300" viewBox="0 0 120 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Cable -->
+    <rect x="58" y="0" width="4" height="150" fill="#2a2a2a"/>
+    <!-- Wire details -->
+    <line x1="60" y1="0" x2="60" y2="150" stroke="#1a1a1a" stroke-width="1"/>
+    
+    <!-- Base Socket Top -->
+    <path d="M48 150H72V160H48V150Z" fill="#1f1f1f"/>
+    <!-- Base Socket Mid -->
+    <path d="M44 160H76V172H44V160Z" fill="#2b2b2b"/>
+    <!-- Base Socket Bottom -->
+    <path d="M52 172H68V180H52V172Z" fill="#333333"/>
+
+    <!-- Lamp Shade -->
+    <path d="M10 240C20 180 45 175 60 175C75 175 100 180 110 240H10Z" fill="#151515"/>
+    <path d="M10 240H110V245H10V240Z" fill="#0a0a0a"/>
+    
+    <!-- Inner Shade (visible from below) -->
+    <ellipse cx="60" cy="245" rx="50" ry="8" fill="#111111"/>
+
+    <!-- Bulb (Dim state) -->
+    <circle cx="60" cy="245" r="14" fill="#0d0d0d" stroke="#222" stroke-width="1" class="bulb-core"/>
+    <!-- Filament -->
+    <path d="M56 240V248M64 240V248M56 248C56 252 64 252 64 248" stroke="#333" stroke-width="1" fill="none" class="bulb-filament"/>
+    
+    <!-- Pull Chain -->
+    <line x1="60" y1="180" x2="60" y2="280" stroke="#444" stroke-width="1" stroke-dasharray="2 2" class="pull-chain-wire"/>
+    <circle cx="60" cy="282" r="3" fill="#666" class="pull-chain-ball"/>
+</svg>
