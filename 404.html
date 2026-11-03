@@ -6,27 +6,30 @@
     <link rel="icon" type="image/svg+xml" href="/portfolio-website/lamp.svg" />
     <meta
       name="description"
-      content="Portfolio of Himanshu Kumar — full-stack developer building interactive web experiences with React, Node.js and Three.js."
+      content="Portfolio of Himanshu Kumar — Java backend developer building production Spring Boot services with JPA/Hibernate, PostgreSQL and Prometheus/Grafana."
     />
     <meta name="theme-color" content="#0b080c" />
-    <meta property="og:title" content="Himanshu Kumar - Full-Stack Developer" />
+    <meta property="og:title" content="Himanshu Kumar - Java Backend Developer" />
     <meta
       property="og:description"
-      content="Interactive 3D portfolio of Himanshu Kumar, full-stack developer."
+      content="Interactive 3D portfolio of Himanshu Kumar, Java backend developer."
     />
     <meta property="og:type" content="website" />
+    <!-- Start downloading the 3D character right away instead of waiting for
+         the JS chunks that request it. Desktop only: mobile has no 3D scene. -->
+    <link rel="preload" href="/portfolio-website/models/character.enc" as="fetch" crossorigin="anonymous" media="(min-width: 1025px)" />
+    <link rel="preload" href="/portfolio-website/models/char_enviorment.hdr" as="fetch" crossorigin="anonymous" media="(min-width: 1025px)" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    <title>Himanshu Kumar - Full-Stack Developer | Web Developer</title>
-    <script type="module" crossorigin src="/portfolio-website/assets/index-BYUQfmzf.js"></script>
+    <title>Himanshu Kumar - Java Backend Developer</title>
+    <script type="module" crossorigin src="/portfolio-website/assets/index-CU96x6BL.js"></script>
     <link rel="modulepreload" crossorigin href="/portfolio-website/assets/vendor-BX5LiPcp.js">
-    <link rel="modulepreload" crossorigin href="/portfolio-website/assets/three-CJGRQUk7.js">
     <link rel="modulepreload" crossorigin href="/portfolio-website/assets/gsap-BaqsKTKs.js">
-    <link rel="stylesheet" crossorigin href="/portfolio-website/assets/index-rJZxvWz_.css">
+    <link rel="stylesheet" crossorigin href="/portfolio-website/assets/index-CoZnQNU5.css">
   </head>
   <body>
     <div id="root"></div>
